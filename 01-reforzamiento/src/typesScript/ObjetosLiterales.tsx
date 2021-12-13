@@ -1,6 +1,5 @@
 interface Persona {
   nombre: String;
-  edad: String;
   direccion: Direccion;
 }
 
