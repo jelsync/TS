@@ -1,7 +1,9 @@
 // import { ObjetosLiterales } from "./typesScript/ObjetosLiterales";
 // import { Funciones } from './typesScript/Funciones';
 // import { Contador } from './components/Contador';
-import { ContadorConHook } from './components/ContadorConHook';
+// import { ContadorConHook } from './components/ContadorConHook';
+
+import { Login } from "./components/Login";
 
 const App = () => {
   return <div className="mt-2">
@@ -10,7 +12,8 @@ const App = () => {
     {/* <ObjetosLiterales/> */}
     {/* <Funciones/> */}
     {/* <Contador/> */}
-    <ContadorConHook/>
+    {/* <ContadorConHook/> */}
+    <Login/>
   </div>;
 };
 
